@@ -1,0 +1,23 @@
+* {
+    box-sizing:border-box;
+}
+/* se inserta un un valor de 8px a la propiedad MARGIN para que haya una separación entre los bloques,
+según la vista a replicar */
+/* se inserta un un valor de 8px a la propiedad PADDING para que haya una separación entre el MARGIN y el contenido,
+según la vista a replicar */
+
+div{
+    height:100px;
+    margin : 8px;
+    padding: 8px;
+    font-family: Palatino;
+}
+
+.yellow{
+    background: rgb(224, 174, 9);
+}
+
+.black{
+    background-color: #1a1b1d;
+    color:white;
+}
